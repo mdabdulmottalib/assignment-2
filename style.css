@@ -63,6 +63,9 @@ header {
   height: 38px;
   width: 92px;
 }
+.last-list-item {
+  padding: 0 20px;
+}
 /* Hero Section */
 .hero-section {
   width: 100%;
@@ -81,10 +84,19 @@ header {
   flex-direction: column;
   gap: 28px;
   justify-content: center;
+  margin-top: 90px;
 }
 
-.hero-right-side {
+.hero-right-image {
   display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.hero-right-side {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
 }
 .hero-heading {
   font-size: 78px;
@@ -97,6 +109,7 @@ header {
   font-style: italic;
 }
 .hero-body-text {
+  width: 520px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -126,4 +139,61 @@ header {
 .hero-quote-buttons {
   background: none;
   border: 1px solid #fff;
+}
+
+.equipment-container {
+  position: absolute;
+  top: 140px;
+  left: 250px;
+  width: 193px;
+  height: 98px;
+  background: #ffffff3a;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipment {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.total-equipment {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffffa6;
+}
+
+.video-tutorial {
+  position: absolute;
+  top: 420px;
+  left: -100px;
+  width: 206px;
+  height: 96px;
+  background: #3030308a;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.trainer-circle {
+  width: 40px;
+  height: 40px;
+  background: #e6533c;
+  border-radius: 50px;
+}
+.total-trainer-number {
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.total-trainer {
+  font-size: 16px;
+  font-weight: 400;
+  color: #efede8a6;
 }
