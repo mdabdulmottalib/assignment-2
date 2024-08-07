@@ -271,16 +271,34 @@ header {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  background: red;
+  background: #222222;
   padding: 30px;
   border-radius: 18px;
 }
 .run-extra-left-side {
   width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+.run-extra-left-side button {
+  padding: 16px 40px;
+  background: #e6533c;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
 }
 .run-extra-div {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .run-extra-img {
@@ -292,6 +310,13 @@ header {
 .run-extra-heading {
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 14px;
+}
+.run-extra-text {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 footer {
