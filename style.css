@@ -419,7 +419,121 @@ header {
   background: #0047ff4d;
   align-items: end;
 }
+/* BMI Calculator Section */
+.bmi-calculator-div {
+  margin-top: 100px;
+}
+.bmi-calculator-top {
+  width: 671px;
+  margin: 0 auto;
+}
+.bmi-calculator-top h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi-calculator-top p,
+.bmi-calculator-right-top p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+  padding-right: 30px;
+  margin-top: 14px;
+}
+.bmi-calculator-bottom {
+  margin-top: 50px;
+  width: 100%;
+  background: #222222;
+}
+.bmi-calculator-bottom-container {
+  width: 1060px;
+  height: auto;
+  margin: 0 auto;
+  padding: 52px;
+}
+.bmi-calculator-bottom-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.bmi-calculator-chart {
+  width: 443px;
+}
+.bmi-chart-heading,
+.bmi-calculator-right-top h3 {
+  font-size: 28px;
+  font-weight: 900;
+}
+.bmi-chart-heading {
+  margin-bottom: 50px;
+}
+.bmi-calculator-chart table {
+  width: 324px;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #ffffff1a;
+  padding: 15px 25px;
+  text-align: left;
+}
+th {
+  font-size: 16px;
+  font-weight: 500;
+}
+td {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.bmi-calculate-container {
+  width: 577px;
+}
+.bmi-calculator-right-div {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-footer {
-  margin-bottom: 200px;
+input,
+select {
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  width: 49%;
+  font-size: 16px;
+  color: #ffffff99;
+  font-weight: 400;
+  outline: none;
+  background: #ffffff1a;
+  padding: 12px 40px 12px 20px;
+  border: none;
+  border-radius: 8px;
+}
+#activity {
+  width: 100%;
+}
+select option {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff99;
+  background: ffffff1a;
+}
+select option:hover {
+  background: red;
+}
+input[type="button"] {
+  margin: 34px 0 0 0;
+  background: #e6533c;
+  color: #ffffff;
+  border-radius: 42px;
+  padding: 16px 40px;
+  cursor: pointer;
 }
