@@ -9,6 +9,17 @@ body {
   background: #000000;
   color: #ffffff;
 }
+h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffffff80;
+}
 @font-face {
   font-family: miama;
   src: url(fonts/Miama.ttf);
@@ -432,6 +443,7 @@ header {
   font-weight: 900;
   margin-bottom: 14px;
 }
+
 .bmi-calculator-top p,
 .bmi-calculator-right-top p {
   font-size: 14px;
@@ -536,4 +548,89 @@ input[type="button"] {
   border-radius: 42px;
   padding: 16px 40px;
   cursor: pointer;
+}
+
+/* team member section */
+.team-member-container {
+  width: 1060px;
+  margin: 0 auto;
+}
+.team-member-div {
+  margin-top: 100px;
+}
+
+.team-member-top {
+  margin: 0 auto;
+  width: 670px;
+  text-align: center;
+}
+.team-member-bottom {
+  margin-top: 58px;
+  background: #ffffff1a;
+  padding: 20px;
+  border-radius: 18px;
+}
+.team-member-cards {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 20px;
+}
+.team-member-img {
+  height: 272px;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.team-member-card1,
+.team-member-card2,
+.team-member-card3,
+.team-member-card4,
+.team-member-card5,
+.team-member-card6 {
+  height: 272px;
+  border-radius: 18px;
+  background-position: center;
+  background-size: cover;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.team-member-card1 {
+  background-image: url(images/trainer1.png);
+}
+
+.team-member-card2 {
+  background-image: url(images/trainer2.png);
+}
+
+.team-member-card3 {
+  background-image: url(images/trainer3.png);
+}
+
+.team-member-card4 {
+  background-image: url(images/trainer4.png);
+}
+
+.team-member-card5 {
+  background-image: url(images/trainer5.png);
+}
+
+.team-member-card6 {
+  background-image: url(images/trainer6.png);
+}
+.team-member-img-overlay {
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 20px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: #00000033;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
