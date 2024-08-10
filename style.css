@@ -532,13 +532,13 @@ select {
 #activity {
   width: 100%;
 }
-select option {
+option {
   font-size: 16px;
   font-weight: 400;
-  color: #ffffff99;
-  background: ffffff1a;
+  color: #414141;
+  background: hsla(0, 0%, 100%, 0.502);
 }
-select option:hover {
+option:hover {
   background: red;
 }
 input[type="button"] {
