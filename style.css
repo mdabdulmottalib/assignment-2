@@ -12,7 +12,6 @@ body {
 h2 {
   font-size: 48px;
   font-weight: 900;
-  margin-bottom: 14px;
 }
 p {
   font-size: 14px;
@@ -40,6 +39,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-text {
@@ -407,6 +407,16 @@ header {
   font-weight: 400;
   display: flex;
 }
+.overlay1 p {
+  color: #000000;
+}
+.overlay2 p,
+.overlay3 p,
+.overlay4 p,
+.overlay5 p,
+.overlay6 p {
+  color: #fff;
+}
 .overlay1 {
   background: #06ffd280;
   align-items: end;
@@ -698,4 +708,110 @@ hr {
 }
 .copyright-section {
   padding: 30px;
+}
+
+/* Responsive */
+/* Header section */
+@media only screen and (max-width: 393px) {
+  .header-nav {
+    display: none;
+  }
+  .header {
+    width: 90%;
+  }
+  .fi-br-bars-staggered {
+    font-size: 20px;
+  }
+  .mobile-nav-item {
+    display: none;
+    background: #a83e3e;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    z-index: 100000;
+  }
+  .mobile-nav-menu {
+    padding: 30px;
+  }
+  .mb-nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mobile-nav-bar:hover > .mobile-nav-item {
+    display: block;
+  }
+  .hero-section {
+    width: 100%;
+    display: flex;
+  }
+  .hero-body-text {
+    width: 350px;
+  }
+  .hero-container {
+    margin-top: 60px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+  }
+  .hero-heading {
+    font-size: 36px;
+  }
+  .hero-body-text {
+    font-size: 16px;
+  }
+
+  .hero-buttons button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 169px;
+    border-radius: 42px;
+    cursor: pointer;
+  }
+  .hero-right-side {
+    margin-top: 50px;
+  }
+  .video-tutorial {
+    top: 250px;
+    left: 10px;
+    width: 155px;
+    height: 72px;
+  }
+  .trainer-circle {
+    width: 30.24px;
+    height: 30.24px;
+  }
+  .total-trainer-number {
+    font-size: 18px;
+    margin-bottom: 10px !important;
+  }
+  .total-trainer {
+    font-size: 12px;
+  }
+  .hero-trainer-image {
+    height: 490px;
+    width: 353px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .equipment-container {
+    top: 50px;
+    left: 190px;
+    width: 145px;
+    height: 74px;
+  }
+
+  .equipment {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .total-equipment {
+    font-size: 10px;
+  }
 }
