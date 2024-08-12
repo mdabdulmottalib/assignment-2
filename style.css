@@ -23,7 +23,7 @@ h2 {
     margin: 0 auto;
   }
   h2 {
-    font-size: 31px;
+    font-size: 31px !important;
   }
   p {
     width: 350px;
