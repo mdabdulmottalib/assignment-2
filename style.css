@@ -955,6 +955,40 @@ hr {
     grid-template-columns: 100%;
     gap: 20px;
   }
+  .footer-div {
+    width: 90%;
+    margin: 0 auto;
+    padding: 66px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-item-right-div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-item-left {
+    width: 100%;
+  }
+  .footer-item-left h2 {
+    color: #e6533c;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  .footer-item-nav nav ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff80;
+  }
+  .footer-item-nav nav ul {
+    margin-top: 15px;
+    gap: 10px;
+  }
 }
 
 @media only screen and (min-width: 394px) {
