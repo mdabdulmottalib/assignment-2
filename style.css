@@ -5,10 +5,17 @@
   text-decoration: none;
   font-family: inter;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background: #000000;
   color: #ffffff;
 }
+
 h2 {
   font-size: 48px;
   font-weight: 900;
@@ -19,9 +26,11 @@ h2 {
 }
 @media only screen and (max-width: 393px) {
   .box-size {
-    max-width: 393px !important;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
   }
+
   h2 {
     font-size: 31px !important;
   }
@@ -54,6 +63,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Ensure flex items wrap */
 }
 
 .logo-text {
