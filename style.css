@@ -947,7 +947,7 @@ hr {
     width: 393px;
   }
   .bmi-calculator-chart {
-    width: 350px;
+    width: 90%;
   }
 
   .bmi-calculator-chart table {
@@ -1006,6 +1006,12 @@ hr {
   .footer-item-nav nav ul {
     margin-top: 15px;
     gap: 10px;
+  }
+  .copyright-section p {
+    width: 90%;
+  }
+  .copyright-section {
+    padding: 20px 0;
   }
 }
 
